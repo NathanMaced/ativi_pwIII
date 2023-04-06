@@ -4,8 +4,10 @@
 include_once 'assalariado.php';
 include_once 'funcionario.php';
 
-$salario = 1500;
+$nathan = new Funcionario;
 
-echo "{$salario}";
+$nathan->codigo = 10;
+
+echo"{$nathan->codigo}";
 
 ?>
