@@ -13,10 +13,9 @@ class Assalariados{
 function inss ($salario){
     if($salario>1300){
         $salarioLiquido = $salario - 0.06%;
-        
+        return $salarioLiquido;
     }
     
-    return $salarioLiquido;
 }
 
 
